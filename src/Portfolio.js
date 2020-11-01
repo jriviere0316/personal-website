@@ -5,7 +5,8 @@ class Portfolio extends Component {
     return (
         <div id='PortfolioDiv'>
             <h1>Portfolio</h1>
-            
+            <hr/>
+            <br/>
             <div id='PortfolioItem'>
                 {/* <a href="https://github.com/jriviere0316/ManaDork"> */}
                 <img src='../images/analytics.png' width='150px' height='150px'/>

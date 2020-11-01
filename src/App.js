@@ -8,11 +8,32 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
+      
+
+      <div class="area" >
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
 
       <Header/>
       <Portfolio/>
-      <Blog/>
       <Contact/>
+      <Blog/>
+
+
+
+
+
     </div>
   );
 }
