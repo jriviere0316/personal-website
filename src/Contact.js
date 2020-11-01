@@ -11,8 +11,8 @@ class Contact extends Component {
             <p>I love working with creative & collaborative people!</p> 
             <p>Let's connect through Github, Linkedin, or Email!</p>
             <Social/>
-            <br/>
-            <a id ="contact" href="mailto:mr.jriviere@gmail.com">Send Me an Email</a>
+            {/* <br/> */}
+            {/* <a id ="contact" href="mailto:mr.jriviere@gmail.com">Send Me an Email</a> */}
            
         </div>
     );

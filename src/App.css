@@ -7,19 +7,30 @@ body{
   font-family: 'Ubuntu', serif; font-size: 20px; 
 
 }
-
+h1{
+  padding-top: 10px;
+}
 .shortH1{
   margin-bottom: 0px;
+  margin-top: 0px;
+}
+#mailto{
+  border-radius: 50%;
 }
 a{
+  margin-left: 5px;
   color: white;
 }
 #giphy{
   border-radius: 50%;
 }
 a:hover{
-  /* color: purple; */
+  color: rgb(174, 18, 252);
 
+}
+.icon:hover{
+  background-color: rgb(174, 18, 252);;
+  border-radius: 50%;
 }
 p{
   margin-left: 20px;
@@ -33,16 +44,22 @@ h6{
   margin-top: 4px;
 }
 #headerDiv{
+  background-color: rgb(21, 20, 23);
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
   width: 95%;
   height: 650px;
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
   padding-bottom: 1px;
+
 }
 
 #BlogDiv{
+  background-color: rgb(21, 20, 23);
+
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
   width: 95%;
@@ -63,7 +80,7 @@ h6{
   color: white;
 }
 #btta:hover{
-color: purple;
+color: rgb(174, 18, 252);
 }
 
 
@@ -73,15 +90,17 @@ color: purple;
 }
 
 #PortfolioDiv{
+  background-color: rgb(21, 20, 23);
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
   padding-bottom: 1px;
+  
 }
 #PortfolioItem{
-
   display: inline-block;
   padding: 20px;
   padding-bottom: 5px;
@@ -89,15 +108,17 @@ color: purple;
   border-radius: 10px;
   width: 235px;
   height: 290px;
-  margin: 30px;
-  margin-bottom: 20px;
-  margin-top: 0px;
+  margin: 34px;
+  margin-bottom: 55px;
+  margin-top: 5px;
 }
 #PortfolioItem:hover{
   /* box-shadow: 0 0 2pt 1pt purple; */
   background-color: rgb(21, 20, 23);
 }
 #ContactDiv{
+  background-color: rgb(21, 20, 23);
+
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
   width: 95%;
@@ -158,7 +179,7 @@ color: purple;
   }
 }
 #AboutMeDiv{
-  background-color: rgb(21, 20, 23);
+  background-color: #424750;
   position: absolute;
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
@@ -166,7 +187,7 @@ color: purple;
   height: 430px;
   margin-left: 7%;
   padding-bottom: 1px;
-  margin-top: 10px;
+  margin-top: 35px;
 }
 #imageAndSocialDiv{
   display: inline-block;
@@ -181,7 +202,7 @@ color: purple;
 }
 
 #SocialDiv{
-  width: 110px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   /* margin-left: 0; */

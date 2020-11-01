@@ -25,7 +25,7 @@ class Portfolio extends Component {
             <a href="https://github.com/jriviere0316/jquery-server-side-calculator">
                 <div id='PortfolioItem'>
                 <img src='../images/calcu.png' width='150px' height='150px'/>
-                <h3>Server-Side Calculator</h3>
+                <h3>Calculator App</h3>
                 <h6>Prime - Weekend Project</h6>
                 </div>
             </a>
@@ -48,8 +48,8 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/movie-sagas">
                 <div id='PortfolioItem'>
-                <img id="giphy" src='../images/floop.png' width='150px' height='150px'/>
-                <h3>Feedback Loop</h3>
+                <img id="giphy" src='../images/loopicon.png' width='150px' height='150px'/>
+                <h3>Feedback Loop App</h3>
                 <h6>Prime - Weekend Project</h6>
                 </div>
             </a>
