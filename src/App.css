@@ -4,17 +4,39 @@
 }
 body{
   background-color: #424750;
+  font-family: 'Ubuntu', serif; font-size: 20px; 
+
 }
 
+.shortH1{
+  margin-bottom: 0px;
+}
+a{
+  color: white;
+}
+#giphy{
+  border-radius: 50%;
+}
+a:hover{
+  /* color: purple; */
 
+}
 p{
   margin-left: 20px;
   margin-right: 20px;
+}
+h3{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+h6{
+  margin-top: 4px;
 }
 #headerDiv{
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
   width: 95%;
+  height: 650px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1px;
@@ -29,19 +51,25 @@ p{
   padding-bottom: 1px;
 }
 
-#AboutMeDiv{
-  display: inline-block;
-  position: absolute;
-  box-shadow: 0 0 2pt 1pt white;
-  border-radius: 10px;
-  width: 30%;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1px;
-  margin-top: 10px;
+#lastaboutme{
+  margin-bottom: 5px;
+}
+#aboutmeul{
+  margin-top: 0;
+}
+#btta{
+  padding-left: 5px;
+  font-weight: bolder;
+  color: white;
+}
+#btta:hover{
+color: purple;
+}
 
-  
+
+
+.aboutMe{
+  text-align: start ;
 }
 
 #PortfolioDiv{
@@ -52,7 +80,23 @@ p{
   margin-right: auto;
   padding-bottom: 1px;
 }
+#PortfolioItem{
 
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 235px;
+  height: 290px;
+  margin: 30px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#PortfolioItem:hover{
+  /* box-shadow: 0 0 2pt 1pt purple; */
+  background-color: rgb(21, 20, 23);
+}
 #ContactDiv{
   box-shadow: 0 0 2pt 1pt white;
   border-radius: 10px;
@@ -64,6 +108,7 @@ p{
 }
 
 #contact{
+  box-shadow: 0 0 2pt 1pt black;
   font-weight: bolder;
   text-decoration: none;
   color: black;
@@ -71,11 +116,12 @@ p{
   padding: 5px;
   border-radius: 5px;
   margin-bottom: 10px;
-  }
-  #contact:hover{
-    
-    color: rgb(37, 137, 199);
-  }
+}
+
+#contact:hover{
+  color: white;
+  background-color: purple;
+}
 
 .App-logo {
   height: 40vmin;
@@ -111,18 +157,27 @@ p{
     transform: rotate(360deg);
   }
 }
-
+#AboutMeDiv{
+  background-color: rgb(21, 20, 23);
+  position: absolute;
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 52%;
+  height: 430px;
+  margin-left: 7%;
+  padding-bottom: 1px;
+  margin-top: 10px;
+}
 #imageAndSocialDiv{
   display: inline-block;
-  margin-left: 37%;
-  padding-top: 10px;
+  margin-left: 60%;
+  padding-top: 50px;
   padding-bottom: 20px;
 
 }
 
 #johnImg{
   box-shadow: 0 0 2pt 1pt white;
-
 }
 
 #SocialDiv{
@@ -134,7 +189,6 @@ p{
   padding-top: 5px;
 }
 
-img{
-  
-  border-radius: 10px;
+#johnImg{
+  border-radius: 50%;
 }
