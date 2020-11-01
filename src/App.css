@@ -1,6 +1,81 @@
 .App {
   text-align: center;
+  color: white;
 }
+body{
+  background-color: #424750;
+}
+
+
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#headerDiv{
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+}
+
+#BlogDiv{
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+}
+
+#AboutMeDiv{
+  display: inline-block;
+  position: absolute;
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 30%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+  margin-top: 10px;
+
+  
+}
+
+#PortfolioDiv{
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+}
+
+#ContactDiv{
+  box-shadow: 0 0 2pt 1pt white;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+#contact{
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  }
+  #contact:hover{
+    
+    color: rgb(37, 137, 199);
+  }
 
 .App-logo {
   height: 40vmin;
@@ -9,7 +84,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 200s linear;
   }
 }
 
@@ -35,4 +110,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#imageAndSocialDiv{
+  display: inline-block;
+  margin-left: 37%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+#johnImg{
+  box-shadow: 0 0 2pt 1pt white;
+
+}
+
+#SocialDiv{
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 0; */
+  /* position: fixed; */
+  padding-top: 5px;
+}
+
+img{
+  
+  border-radius: 10px;
 }
