@@ -11,7 +11,7 @@ class Header extends Component {
           <hr/>
           <AboutMe/>
           <div id="imageAndSocialDiv">
-            <img id="johnImg" src= '../images/John.jpg' alt="John" height='300px' width='300px'></img>
+            <img id="johnImg" src= 'images/John.jpg' alt="John" height='300px' width='300px'></img>
             <Social/>
           </div>
         </div>

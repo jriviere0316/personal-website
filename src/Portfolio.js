@@ -9,7 +9,7 @@ class Portfolio extends Component {
             <br/>
             <div id='PortfolioItem'>
                 {/* <a href="https://github.com/jriviere0316/ManaDork"> */}
-                <img src='../images/analytics.png' width='150px' height='150px'/>
+                <img src='images/analytics.png' width='150px' height='150px'/>
                 {/* </a> */}
                 <h3>MinneAnalytics</h3>
                 <h6>Prime - Group Project</h6>
@@ -17,7 +17,7 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/ManaDork">
                 <div id='PortfolioItem'>
-                <img src='../images/mtg.png' width='150px' height='150px'/>
+                <img src='images/mtg.png' width='150px' height='150px'/>
                 <h3>ManaDork</h3>
                 <h6>Prime - Solo Project</h6>
                 </div>
@@ -25,7 +25,7 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/jquery-server-side-calculator">
                 <div id='PortfolioItem'>
-                <img src='../images/calcu.png' width='150px' height='150px'/>
+                <img src='images/calcu.png' width='150px' height='150px'/>
                 <h3>Calculator App</h3>
                 <h6>Prime - Weekend Project</h6>
                 </div>
@@ -33,7 +33,7 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/movie-sagas">
                 <div id='PortfolioItem'>
-                <img src='../images/movies.png' width='150px' height='150px'/>
+                <img src='images/movies.png' width='150px' height='150px'/>
                 <h3>Movie Saga App</h3>
                 <h6>Prime - Weekend Project</h6>
                 </div>
@@ -41,7 +41,7 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/movie-sagas">
                 <div id='PortfolioItem'>
-                <img id="giphy" src='../images/giphy.png' width='150px' height='150px'/>
+                <img id="giphy" src='images/giphy.png' width='150px' height='150px'/>
                 <h3>Giphy API App</h3>
                 <h6>Prime - Group Project</h6>
                 </div>
@@ -49,7 +49,7 @@ class Portfolio extends Component {
 
             <a href="https://github.com/jriviere0316/movie-sagas">
                 <div id='PortfolioItem'>
-                <img id="giphy" src='../images/loopicon.png' width='150px' height='150px'/>
+                <img id="giphy" src='images/loopicon.png' width='150px' height='150px'/>
                 <h3>Feedback Loop App</h3>
                 <h6>Prime - Weekend Project</h6>
                 </div>
